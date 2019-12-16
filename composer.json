@@ -1,0 +1,54 @@
+{
+  "name": "djunehor/php-env-export",
+  "description": "Laravel PHP package to export env keys",
+  "keywords": [
+    "env",
+    "export",
+    "laravel",
+    "php",
+    "djunehor",
+    "laravel",
+    "laravel-package"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zacchaeus Bolaji",
+      "email": "djunehor@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": ">=1.0",
+        "orchestra/testbench": ">=3.0",
+        "phpunit/phpunit": ">=6.0",
+      "illuminate/support": ">=5.0"
+    },
+  "autoload": {
+    "psr-4": {
+      "Djunehor\\Env\\": "src/"
+    },
+      "files": [
+          "src/Export.php"
+      ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Djunehor\\Env\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Djunehor\\Env\\EnvExportServiceProvider"
+      ]
+    }
+  }
+}
