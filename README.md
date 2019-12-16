@@ -1,4 +1,11 @@
 # PHP Env Export
+[![CircleCI](https://circleci.com/gh/djunehor/php-env-export.svg?style=svg)](https://circleci.com/gh/djunehor/php-env-export)
+[![Latest Stable Version](https://poser.pugx.org/djunehor/php-env-export/v/stable)](https://packagist.org/packages/djunehor/php-env-export)
+[![Total Downloads](https://poser.pugx.org/djunehor/php-env-export/downloads)](https://packagist.org/packages/djunehor/eyowo-php)
+[![License](https://poser.pugx.org/djunehor/php-env-export/license)](https://packagist.org/packages/djunehor/php-env-export)
+[![Build Status](https://scrutinizer-ci.com/g/djunehor/php-env-export/badges/build.png?b=master)](https://scrutinizer-ci.com/g/djunehor/php-env-export/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/djunehor/php-env-export/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/djunehor/php-env-export/?branch=master)
+
 PHP Package to export env keys to new file
 
 - [Laravel Bible](#php-env-export)
@@ -10,8 +17,6 @@ PHP Package to export env keys to new file
     - [Contributing](#contributing)
 
 ## Installation
-
-### Step 1
 You can install the package via composer:
 
 ```shell
