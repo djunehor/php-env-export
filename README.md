@@ -60,6 +60,9 @@ export_env($from, $to);
 - Or `php artisan env:export --from=.env --to='.env.example`
 - Or `php artisan env:export -f=.env -to='.env.example`
 
+## Via Console
+- `php --run "require 'vendor/djunehor/php-env-export/src/Export.php'; export_env();"`
+
 ## Contributing
 - Fork this project
 - Clone to your repo
